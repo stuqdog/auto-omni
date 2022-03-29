@@ -27,9 +27,9 @@ function! auto_omni#_unlock()
 endfunction
 function! auto_omni#_toggle()
     if !auto_omni#_locked()
-        call auto_omni#_lock
+        call auto_omni#_lock()
     else
-        call auto_omni#_unlock
+        call auto_omni#_unlock()
     endif
 endfunction
 call auto_omni#_unlock()
