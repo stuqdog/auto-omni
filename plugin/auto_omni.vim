@@ -25,6 +25,8 @@ command! -nargs=0 -bar AutoOmniLock
       \ call auto_omni#_lock()
 command! -nargs=0 -bar AutoOmniUnlock
       \ call auto_omni#_unlock()
+command! -nargs=0 -bar AutoOmniToggle
+      \ call auto_omni#_toggle()
 
 set completeopt=noinsert,menuone
 
